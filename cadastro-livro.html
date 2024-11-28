@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO LIVRO</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="lista-alunos.html">ALUNO</a>
+            <a href="lista-livro.html">LIVRO</a>
+            <a href="lista-emprestimo.html">EMPRESTIMOS</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DO LIVRO</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label>
+               TITULO
+                <br>
+                <input type="text" name="input-titulo-carro" placeholder="insira o titulo do livro" required>
+            </label>
+
+            <label>
+                AUTOR
+                 <br>
+                 <input type="text" name="input-autor" placeholder="Insira o nome do autor" required>
+             </label>
+
+             <label>
+               ISBN
+                 <br>
+                 <input type="text" name="input-marca-carro" placeholder="insira o ISBN" required>
+             </label>
+
+            <label>
+               QUANTIDADE TOTAL
+                <br>
+                <input type="number" name="input-quantidade-total-" placeholder="000.000.00" required>
+            </label>
+
+            <label>
+               EDITORA
+                <br>
+                <input type="text" name="input-editora" placeholder="insira a editora do livro" required>
+            </label>
+
+            <label>
+                ANO PUBLICAÇÃO
+                <br>
+                <input type="text" name="input-cor-carro" placeholder="insira o ano de publicação" required>
+            </label>
+
+            <label>
+                VALOR DE AQUISIÇÃO
+                <br>
+                <input type="text" name="input-cor-carro" placeholder="insira o valor" required>
+            </label>
+
+            <label>
+                QUANTIDADE DISPONIVEL
+                <br>
+                <input type="text" name="input-cor-carro" placeholder="quantidade disponivel" required>
+            </label>
+
+            <input type="button" value="CADASTRAR" onclick="enviaFormulario()">
+        </form>
+    </div>
+    <script src="js/livro.js"></script>
+</body>
+
+</html>

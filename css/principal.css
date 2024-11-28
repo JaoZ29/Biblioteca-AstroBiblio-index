@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --cor-primaria: #071434;
+    --bg-color: #AC9175;
+    --bg-form: #EFEFEF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "ROBOTO", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--bg-color);
+    height: 100%;
+}
+
+/* TÍTULO */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.imagem {
+    margin-left: auto;
+    height: 550px;
+}
+
+.painel-esquerdo {
+    width: 50%;
+}
+
+.esquerda, 
+.meio, 
+.direita {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--cor-primaria);
+    color: white;
+
+    height: 60%;
+    width: 40%;
+
+    border-radius: 5px;
+}
